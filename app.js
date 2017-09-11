@@ -19,13 +19,13 @@ inquirer.prompt([{
 	choices: [{
 		name: 'addAcard'
 	},
-	{	name: 'displayACard'
+	{	name: 'displayAcard'
 	}]
 
 }].then(function(answer) {
 	if (answer.select === 'addAcard') {
 		addCard();
-	} else if (answer.select === 'displayACard') {
+	} else if (answer.select === 'displayAcard') {
 		displayCards();
 	}
 });
