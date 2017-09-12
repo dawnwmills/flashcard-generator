@@ -1,7 +1,7 @@
 //require fs
 var fs = require("fs");
 
-//Node module to export constructor for creating basic flashcard
+//Node module to export constructor for cloze flashcard
 module.exports = ClozeCard;
 
 //constructor for basicCard arguments text and cloze
